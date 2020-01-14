@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pandora-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "typescript eslint for team",
   "keywords": [
     "config",

@@ -38,6 +38,7 @@ module.exports = {
         // React相关校验规则
         "react/jsx-indent": [2, 4],
         "react/jsx-no-undef": [2, { allowGlobals: true }],
+        "react/prop-types": 0,
         "react/jsx-no-target-blank": 0,
         "jsx-control-statements/jsx-use-if-tag": 0
     }
