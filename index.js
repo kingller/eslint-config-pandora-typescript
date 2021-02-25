@@ -1,3 +1,6 @@
+/*
+ * http://eslint.org/docs/rules/
+ */
 module.exports = {
     parser: '@typescript-eslint/parser', // Specifies the ESLint parser
     extends: [
@@ -34,15 +37,21 @@ module.exports = {
         "prettier/prettier": 1,
         "no-console": ["warn", { allow: ['warn', 'error'] }],
         "eqeqeq": ["warn", "always"],
+        "radix": 0,
         "prefer-const": ["error", {"destructuring": "all", "ignoreReadBeforeAssign": true}],
         "no-underscore-dangle": 0,
         "no-plusplus": 0,
         "no-continue": 0,
         "no-useless-escape": 0,
+        "no-lonely-if": 0,
+        "consistent-return": 0,
+        "class-methods-use-this": 0,
+        "import/no-named-default": 0,
         "import/no-named-as-default": 0,
         "import/prefer-default-export": 0,
         "import/no-extraneous-dependencies": 0,
-        "@typescript-eslint/indent": ["error", 4, { VariableDeclarator: 4, SwitchCase: 1 }],
+        // 使用prettier缩进
+        "@typescript-eslint/indent": 0,
         "@typescript-eslint/no-unused-vars": 0,
         "@typescript-eslint/interface-name-prefix": 0,
         "@typescript-eslint/explicit-member-accessibility": 0,
@@ -59,7 +68,26 @@ module.exports = {
         "react/jsx-no-target-blank": 0,
         "react/static-property-placement": 0,
         "react/require-default-props": 0,
+        "react/jsx-props-no-spreading": 0,
+        "react/prefer-stateless-function": 0,
+        "react/destructuring-assignment": 0,
+        "react/no-array-index-key": 0,
+        "react/forbid-prop-types": 0,
+        "react/no-access-state-in-setstate": 0,
         "jsx-control-statements/jsx-use-if-tag": 0,
-        "jsx-control-statements/jsx-jcs-no-undef": 0
+        "jsx-control-statements/jsx-jcs-no-undef": 0,
+        "jsx-a11y/no-static-element-interactions": 0,
+        "jsx-a11y/click-events-have-key-events": 0,
+        "jsx-a11y/no-noninteractive-element-interactions": 0,
+        "jsx-a11y/no-noninteractive-element-to-interactive-role": 0,
+        "jsx-a11y/anchor-is-valid": 0,
+        "jsx-a11y/anchor-has-content": 0,
+
+        // 暂时先关闭
+        "@typescript-eslint/ban-types": 0,
+        "@typescript-eslint/explicit-module-boundary-types": 0,
+        "func-names": 0,
+        "no-param-reassign": 0,
+        "max-classes-per-file": 0,
     }
 };

@@ -9,5 +9,9 @@
 # Next
 
 
+
+# 2.0.0-dev
+1. <font color=orange>修改</font> 使用`airbnb`校验规则
+
 # 1.0.1
 1. <font color=orange>修改</font> 禁用`react/prop-types`规则
