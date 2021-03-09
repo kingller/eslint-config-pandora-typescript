@@ -2,7 +2,6 @@
  * http://eslint.org/docs/rules/
  */
 module.exports = {
-    parser: '@typescript-eslint/parser', // Specifies the ESLint parser
     extends: [
         'airbnb-typescript',
         'airbnb/hooks',
@@ -10,9 +9,7 @@ module.exports = {
         'plugin:react/recommended',
         'plugin:jsx-control-statements/recommended',
         'plugin:import/typescript',
-        'prettier/@typescript-eslint', // Uses eslint-config-prettier to disable ESLint rules from @typescript-eslint/eslint-plugin that would conflict with prettier
-        'plugin:prettier/recommended', // Enables eslint-plugin-prettier and displays prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array.
-        'prettier/react'
+        'plugin:prettier/recommended',
     ],
     "settings": {
         "react": {
@@ -38,7 +35,7 @@ module.exports = {
         "no-console": ["warn", { allow: ['warn', 'error'] }],
         "eqeqeq": ["warn", "always"],
         "radix": 0,
-        "prefer-const": ["error", {"destructuring": "all", "ignoreReadBeforeAssign": true}],
+        "prefer-const": ["error", { "destructuring": "all", "ignoreReadBeforeAssign": true }],
         "no-underscore-dangle": 0,
         "no-plusplus": 0,
         "no-continue": 0,

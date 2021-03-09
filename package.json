@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pandora-typescript",
-  "version": "2.0.0-dev",
+  "version": "2.0.0-beta",
   "description": "typescript eslint for team",
   "keywords": [
     "config",
@@ -25,10 +25,10 @@
     "test": "mocha tests --recursive"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "4.15.2",
-    "@typescript-eslint/parser": "4.15.2",
+    "@typescript-eslint/eslint-plugin": "4.17.0",
+    "@typescript-eslint/parser": "4.17.0",
     "babel-eslint": "10.1.0",
-    "eslint": "7.20.0",
+    "eslint": "7.21.0",
     "eslint-config-airbnb-typescript": "12.3.1",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-import": "2.22.1",
@@ -39,7 +39,7 @@
     "eslint-plugin-react-hooks": "4.2.0"
   },
   "devDependencies": {
-    "mocha": "8.2.1"
+    "mocha": "8.3.1"
   },
   "engines": {
     "node": ">=10.16.3"
