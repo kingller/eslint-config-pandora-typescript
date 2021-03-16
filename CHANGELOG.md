@@ -10,6 +10,11 @@
 
 
 
+# 2.0.1
+1. <font color=green>新增</font> `react/jsx-no-bind`
+2. <font color=green>新增</font> `react/no-danger`
+3. <font color=green>新增</font> 对象解构`prefer-destructuring`
+
 # 2.0.0
 1. <font color=orange>修改</font> 使用`airbnb`校验规则
 
