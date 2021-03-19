@@ -10,6 +10,9 @@
 
 
 
+# 2.0.2
+1. <font color=red>修复</font> `webpack`配置文件不在根目录下时，找不到`tsconfig.json`文件
+
 # 2.0.1
 1. <font color=green>新增</font> `react/jsx-no-bind`
 2. <font color=green>新增</font> `react/no-danger`

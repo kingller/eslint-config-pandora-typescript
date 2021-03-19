@@ -28,7 +28,7 @@ module.exports = {
         ecmaFeatures: {
             jsx: true,
         },
-        project: './tsconfig.json',
+        project: 'tsconfig.json',
     },
     rules: {
         'prettier/prettier': 1,
