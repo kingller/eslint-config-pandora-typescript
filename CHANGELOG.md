@@ -9,6 +9,8 @@
 # Next
 
 
+# 2.1.0
+1. <font color=orange>修改</font> 添加配置`root: true`，`ESLint`不继续向上查询配置文件
 
 # 2.0.2
 1. <font color=red>修复</font> `webpack`配置文件不在根目录下时，找不到`tsconfig.json`文件

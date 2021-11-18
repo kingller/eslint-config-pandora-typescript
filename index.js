@@ -2,6 +2,7 @@
  * http://eslint.org/docs/rules/
  */
 module.exports = {
+    root: true,
     extends: [
         'airbnb-typescript',
         'airbnb/hooks',

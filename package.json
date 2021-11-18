@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pandora-typescript",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "typescript eslint for team",
   "keywords": [
     "config",
@@ -43,5 +43,8 @@
   },
   "engines": {
     "node": ">=10.16.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
