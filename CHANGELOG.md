@@ -9,6 +9,21 @@
 # Next
 
 
+# 2.2.0
+1. <font color=orange>修改</font> 包版本升级
+```
+@typescript-eslint/eslint-plugin            4.18.0      =>      5.9.0
+@typescript-eslint/parser                   4.18.0      =>      5.9.0
+eslint                                      7.22.0      =>      8.6.0
+eslint-config-airbnb-typescript             12.3.1      =>      16.1.0
+eslint-config-prettier                      8.1.0       =>      8.3.0
+eslint-plugin-import                        2.22.1      =>      2.25.4
+eslint-plugin-jsx-a11y                      6.4.1       =>      6.5.1
+eslint-plugin-prettier                      3.3.1       =>      4.0.0
+eslint-plugin-react                         7.22.0      =>      7.28.0
+eslint-plugin-react-hooks                   4.2.0       =>      4.3.0
+```
+
 # 2.1.0
 1. <font color=orange>修改</font> 添加配置`root: true`，`ESLint`不继续向上查询配置文件
 
