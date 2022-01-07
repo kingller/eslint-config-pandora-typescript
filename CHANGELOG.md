@@ -9,6 +9,13 @@
 # Next
 
 
+# 2.2.1
+1. <font color=red>修复</font> ESLint couldn't find the config "airbnb/hooks" to extend from.  
+<font color=green>新增</font> 包
+```
+eslint-config-airbnb    19.0.4
+```
+
 # 2.2.0
 1. <font color=orange>修改</font> 包版本升级
 ```
