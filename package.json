@@ -5,9 +5,8 @@
   "keywords": [
     "config",
     "eslint",
-    "eslint-config",
-    "eslint-plugin",
     "pandora",
+    "plugin",
     "typescript"
   ],
   "homepage": "https://github.com/kingller/eslint-config-pandora-typescript",
@@ -25,25 +24,25 @@
     "test": "mocha tests --recursive"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.9.0",
-    "@typescript-eslint/parser": "5.9.0",
+    "@typescript-eslint/eslint-plugin": "5.25.0",
+    "@typescript-eslint/parser": "5.25.0",
     "babel-eslint": "10.1.0",
-    "eslint": "8.6.0",
+    "eslint": "8.15.0",
     "eslint-config-airbnb": "19.0.4",
-    "eslint-config-airbnb-typescript": "16.1.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-import": "2.25.4",
+    "eslint-config-airbnb-typescript": "17.0.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
     "eslint-plugin-jsx-a11y": "6.5.1",
-    "eslint-plugin-jsx-control-statements": "2.2.1",
+    "eslint-plugin-jsx-control-statements": "3.0.0",
     "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-react": "7.28.0",
-    "eslint-plugin-react-hooks": "4.3.0"
+    "eslint-plugin-react": "7.29.4",
+    "eslint-plugin-react-hooks": "4.5.0"
   },
   "devDependencies": {
-    "mocha": "8.3.2"
+    "mocha": "10.0.0"
   },
   "engines": {
-    "node": ">=10.16.3"
+    "node": ">=14.0.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
