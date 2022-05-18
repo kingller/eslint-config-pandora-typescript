@@ -9,6 +9,9 @@
 # Next
 
 
+# 2.3.0
+1. <font color=blue>增强</font> 支持`typescript 4.6.0`以上
+
 # 2.2.1
 1. <font color=red>修复</font> ESLint couldn't find the config "airbnb/hooks" to extend from.  
 <font color=green>新增</font> 包
