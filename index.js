@@ -58,6 +58,7 @@ module.exports = {
                 },
             },
         ],
+        'prefer-regex-literals': 0,
         'no-restricted-syntax': 0,
         'import/no-named-default': 0,
         'import/no-named-as-default': 0,
@@ -77,12 +78,13 @@ module.exports = {
         '@typescript-eslint/naming-convention': 0,
         // React相关校验规则
         'react/jsx-indent': [2, 4],
-        'react/jsx-no-undef': [2, { allowGlobals: true }],
         'react/prop-types': 0,
-        'react/jsx-no-target-blank': 0,
         'react/static-property-placement': 0,
         'react/require-default-props': 0,
+        'react/jsx-no-undef': [2, { allowGlobals: true }],
+        'react/jsx-no-target-blank': 0,
         'react/jsx-props-no-spreading': 0,
+        'react/jsx-no-useless-fragment': 0,
         'react/prefer-stateless-function': 0,
         'react/destructuring-assignment': 0,
         'react/no-array-index-key': 0,
@@ -91,6 +93,9 @@ module.exports = {
         'react/sort-comp': 0,
         'react/no-unused-state': 0,
         'react/no-unused-prop-types': 0,
+        'react/no-unused-class-component-methods': 0,
+        'react/default-props-match-prop-types': 0,
+        'react/no-unstable-nested-components': 0,
         'jsx-control-statements/jsx-use-if-tag': 0,
         'jsx-control-statements/jsx-jcs-no-undef': 0,
         'jsx-a11y/no-static-element-interactions': 0,
@@ -104,6 +109,8 @@ module.exports = {
         'jsx-a11y/control-has-associated-label': 0,
         'jsx-a11y/label-has-associated-control': 0,
         'jsx-a11y/no-autofocus': 0,
+
+        'react/jsx-no-constructed-context-values': 1,
 
         // 暂时先关闭
         '@typescript-eslint/ban-types': 0,
