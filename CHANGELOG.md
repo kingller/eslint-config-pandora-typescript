@@ -9,6 +9,15 @@
 # Next
 
 
+# 2.3.1
+1. <font color=blue>增强</font> 升级包
+```
+@typescript-eslint/eslint-plugin        5.25.0      =>      5.26.0
+@typescript-eslint/parser               5.25.0      =>      5.26.0
+eslint                                  8.15.0      =>      8.16.0
+eslint-plugin-react                     7.29.4      =>      7.30.0
+```
+
 # 2.3.0
 1. <font color=blue>增强</font> 支持`typescript 4.6.0`以上
 
