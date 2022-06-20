@@ -9,6 +9,10 @@
 # Next
 
 
+# 2.3.2
+1. <font color=orange>修改</font> `react/function-component-definition`规则
+
+
 # 2.3.1
 1. <font color=blue>增强</font> 升级包
 ```

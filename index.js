@@ -86,10 +86,13 @@ module.exports = {
         'react/jsx-props-no-spreading': 0,
         'react/jsx-no-useless-fragment': 0,
         'react/prefer-stateless-function': 0,
-        'react/function-component-definition': ['error', {
-            namedComponents: ['function-declaration', 'function-expression','arrow-function'],
-            unnamedComponents: 'function-expression',
-          }],  
+        'react/function-component-definition': [
+            'error',
+            {
+                namedComponents: ['function-declaration', 'function-expression', 'arrow-function'],
+                unnamedComponents: 'function-expression',
+            },
+        ],
         'react/destructuring-assignment': 0,
         'react/no-array-index-key': 0,
         'react/forbid-prop-types': 0,
