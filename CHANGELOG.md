@@ -9,6 +9,19 @@
 # Next
 
 
+# 2.3.3
+1. <font color=orange>修改</font> `react/function-component-definition`规则
+```
+'react/function-component-definition': [
+    'error',
+    {
+        namedComponents: ['function-declaration', 'function-expression', 'arrow-function'],
+        unnamedComponents: ['function-expression', 'arrow-function'],
+    },
+]
+```
+
+
 # 2.3.2
 1. <font color=orange>修改</font> `react/function-component-definition`规则
 

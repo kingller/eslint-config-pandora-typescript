@@ -90,7 +90,7 @@ module.exports = {
             'error',
             {
                 namedComponents: ['function-declaration', 'function-expression', 'arrow-function'],
-                unnamedComponents: 'function-expression',
+                unnamedComponents: ['function-expression', 'arrow-function'],
             },
         ],
         'react/destructuring-assignment': 0,
