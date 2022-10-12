@@ -18,7 +18,7 @@ module.exports = {
             version: 'detect',
         },
     },
-    plugins: ['@typescript-eslint', 'react', 'react-hooks', 'import', 'jsx-control-statements', 'prettier'],
+    plugins: ['@typescript-eslint', 'react', 'react-hooks', 'import', 'jsx-control-statements', 'prettier','gaia-check'],
     env: {
         browser: true,
         node: true,
@@ -118,6 +118,7 @@ module.exports = {
         'jsx-a11y/no-autofocus': 0,
 
         'react/jsx-no-constructed-context-values': 1,
+        'gaia-check/atob': 1,
 
         // 暂时先关闭
         '@typescript-eslint/ban-types': 0,
