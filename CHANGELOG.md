@@ -9,6 +9,11 @@
 # Next
 
 
+
+# 2.4.0
+1. <font color=orange>修改</font> 关闭 `no-template-curly-in-string` 规则
+
+
 # 2.3.3
 1. <font color=orange>修改</font> `react/function-component-definition`规则
 ```

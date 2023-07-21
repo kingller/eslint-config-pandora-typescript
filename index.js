@@ -60,6 +60,7 @@ module.exports = {
         ],
         'prefer-regex-literals': 0,
         'no-restricted-syntax': 0,
+        'no-template-curly-in-string': 0,
         'import/no-named-default': 0,
         'import/no-named-as-default': 0,
         'import/prefer-default-export': 0,
