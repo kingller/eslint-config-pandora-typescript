@@ -9,6 +9,22 @@
 # Next
 
 
+# 2.5.0
+1. <font color=orange>修改</font> 升级包
+```
+@typescript-eslint/eslint-plugin            5.26.0      =>       6.9.0
+@typescript-eslint/parser                   5.26.0      =>       6.9.0
+eslint                                      8.16.0      =>       8.52.0    
+eslint-config-airbnb-typescript             17.0.0      =>       17.1.0
+eslint-config-prettier                      8.5.0       =>       9.0.0
+eslint-plugin-import                        2.26.0      =>       2.29.0
+eslint-plugin-jsx-a11y                      6.5.1       =>       6.7.1
+eslint-plugin-jsx-control-statements        3.0.0       =>       3.0.0
+eslint-plugin-prettier                      4.0.0       =>       5.0.1
+eslint-plugin-react                         7.30.0      =>       7.33.2
+eslint-plugin-react-hooks                   4.5.0       =>       4.6.0
+```
+
 
 # 2.4.0
 1. <font color=orange>修改</font> 关闭 `no-template-curly-in-string` 规则
