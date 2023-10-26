@@ -9,6 +9,11 @@
 # Next
 
 
+# 2.5.1
+1. <font color=red>修复</font> Error: Cannot find module 'prettier'
+2. <font color=green>新增</font> 依赖包 `prettier`
+
+
 # 2.5.0
 1. <font color=orange>修改</font> 升级包
 ```

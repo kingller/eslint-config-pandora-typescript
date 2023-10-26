@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pandora-typescript",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "description": "typescript eslint for team",
   "keywords": [
     "config",
@@ -36,7 +36,8 @@
     "eslint-plugin-jsx-control-statements": "3.0.0",
     "eslint-plugin-prettier": "5.0.1",
     "eslint-plugin-react": "7.33.2",
-    "eslint-plugin-react-hooks": "4.6.0"
+    "eslint-plugin-react-hooks": "4.6.0",
+    "prettier": "3.0.3"
   },
   "devDependencies": {
     "mocha": "10.2.0"
