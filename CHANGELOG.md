@@ -8,6 +8,21 @@
 
 # Next
 
+# 2.5.2
+1. <font color=orange>修改</font> 升级包
+```
+@typescript-eslint/eslint-plugin:       6.9.0      =>      7.14.1
+@typescript-eslint/parser:              6.9.0      =>      7.14.1
+eslint:                                 8.52.0     =>      9.5.0
+eslint-config-airbnb-typescript:        17.1.0     =>      18.0.0
+eslint-config-prettier:                 9.0.0      =>      9.1.0
+eslint-plugin-import:                   2.29.0     =>      2.29.1
+eslint-plugin-jsx-a11y:                 6.7.1      =>      6.9.0
+eslint-plugin-prettier:                 5.0.1      =>      5.1.3
+eslint-plugin-react:                    7.33.2     =>      7.34.3
+eslint-plugin-react-hooks:              4.6.0      =>      4.6.2
+prettier:                               3.0.3      =>      3.3.2
+```
 
 # 2.5.1
 1. <font color=red>修复</font> Error: Cannot find module 'prettier'
