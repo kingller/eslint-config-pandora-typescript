@@ -8,6 +8,19 @@
 
 # Next
 
+# 2.5.3
+1. <font color=red>修复</font> 降级包的版本，如下：
+```
+eslint:                                 8.52.0 
+eslint-config-airbnb-typescript:        17.1.0
+eslint-config-prettier:                 9.0.0
+eslint-plugin-import:                   2.29.0 
+eslint-plugin-jsx-a11y:                 6.7.1 
+eslint-plugin-prettier:                 5.0.1  
+eslint-plugin-react:                    7.33.2   
+eslint-plugin-react-hooks:              4.6.0   
+prettier:                               3.0.3 
+```
 # 2.5.2
 1. <font color=orange>修改</font> 升级包
 ```
